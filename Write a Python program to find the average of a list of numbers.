@@ -1,0 +1,7 @@
+numbers = [10, 20, 30, 40, 50]
+total = 0
+count = len(numbers)
+for number in numbers:
+    total += number
+average = total / count
+print("The average is:", average)

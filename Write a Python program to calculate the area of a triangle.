@@ -1,0 +1,4 @@
+ length=int(input("length:"))
+breadth=int(input("breadth:"))
+print(1/2*length*breadth)
+

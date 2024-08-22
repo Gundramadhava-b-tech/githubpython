@@ -1,0 +1,5 @@
+num = '10.5'
+print(type(num))
+converted_num = float(num)
+print(type(converted_num))
+print(converted_num)

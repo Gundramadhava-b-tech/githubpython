@@ -1,0 +1,4 @@
+str1 = "Hello, world!"
+substr1 = "world"
+concatenated=''.join([str1,substr1])
+print(concatenated)

@@ -1,0 +1,5 @@
+ my_dict = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
+if 'key4' in my_dict:
+    print("Key exists in the dictionary.")
+else:
+    print("Key does not exist in the dictionary.")

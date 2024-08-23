@@ -1,0 +1,3 @@
+dict = {'Geeks': 10, 'for': 12, 'Geek': 31}
+print(list(dict.items()))
+

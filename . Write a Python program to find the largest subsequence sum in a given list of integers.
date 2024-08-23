@@ -1,0 +1,6 @@
+nums = [3, 2, 5, 10, 7]
+max_sum = current_sum = 0
+for num in nums:
+    current_sum = max(num, current_sum + num)
+    max_sum = max(max_sum, current_sum)
+print(max_sum)

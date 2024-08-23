@@ -1,0 +1,2 @@
+dict = {'a': 1, 'b': 2,  'c': 1}
+print({key: list(dict.values()).count(key) for key in dict.values()})

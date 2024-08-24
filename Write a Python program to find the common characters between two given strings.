@@ -1,0 +1,8 @@
+def common_characters(str1, str2):
+    return set(str1) & set(str2)
+
+string1 = "hello"
+string2 = "world"
+common_chars = common_characters(string1, string2)
+print("Common characters:", common_chars)
+

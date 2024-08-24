@@ -1,0 +1,3 @@
+string = "example string"
+frequency = {char: string.count(char) for char in set(string)}
+print(frequency)

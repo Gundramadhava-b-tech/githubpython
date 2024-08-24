@@ -1,0 +1,14 @@
+# Check if a given string contains only digits
+
+input_string = input("Enter a string: ")
+is_digit = True
+
+for char in input_string:
+    if char < '0' or char > '9':
+        is_digit = False
+        break
+
+if is_digit:
+    print("The string contains only digits.")
+else:
+    print("The string contains non-digit characters.")

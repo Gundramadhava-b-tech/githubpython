@@ -1,0 +1,5 @@
+try:
+    # Intentionally causing a TypeError
+    result = '1' + 1
+except TypeError as e:
+    print(f"TypeError occurred: {e}")

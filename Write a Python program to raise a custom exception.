@@ -1,0 +1,14 @@
+class CustomException(Exception):
+    """Custom exception class for specific error handling."""
+    pass
+
+def risky_operation(value):
+    if value < 0:
+        raise CustomException("Negative value is not allowed.")
+    return value * 2
+
+try:
+    result = risky_operation( 5)
+    print(result)
+except CustomException as e:
+    print(f"An error occurred: {e}")

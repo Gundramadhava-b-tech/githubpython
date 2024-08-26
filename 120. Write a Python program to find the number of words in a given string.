@@ -1,0 +1,4 @@
+string = "This is a sample string to count the number of words."
+word_count = len(string.split())
+print("Number of words:", word_count)
+

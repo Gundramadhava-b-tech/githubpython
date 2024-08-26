@@ -1,0 +1,5 @@
+try:
+    my_dict = {'a': 1, 'b': 2}
+    value = my_dict['c']
+except KeyError as e:
+    print(f"KeyError: The key '{e}' does not exist in the dictionary.")

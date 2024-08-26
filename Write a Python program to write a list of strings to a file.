@@ -1,0 +1,14 @@
+# Define the list of strings
+strings_list = ["Hello, World!", "Welcome to Python programming.", "File handling is easy.", "Enjoy coding!"]
+
+# Specify the file name
+file_name = "output.txt"
+
+# Write the list of strings to the file
+try:
+    with open(file_name, 'w') as file:
+        for string in strings_list:
+            file.write(string + '\n')
+    print(f"Strings successfully written to {file_name}.")
+except Exception as e:
+    print(f"An error occurred: {e}")

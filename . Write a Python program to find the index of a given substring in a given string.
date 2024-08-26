@@ -1,0 +1,5 @@
+ string = "Hello, welcome to the world of Python."
+substring = "welcome"
+index = string.find(substring)
+print(index)
+
